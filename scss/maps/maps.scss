@@ -4,11 +4,19 @@
   margin: 1rem auto;
   padding: 5rem;
   display: flex;
-  justify-content: center;
-  width: clamp(600px, 100%, 800px);
+  justify-content: space-between;
+  width: clamp(600px, 100%, 1200px);
 }
 
 .maps__image {
-  width: clamp(300px, 40vw, 500px);
-  height: clamp(300px, 40vw, 500px);
+  width: 70%;
+  height: 70%;
+}
+
+.maps__right {
+  padding-left: 1rem;
+}
+
+.maps__right__title {
+  margin: 0;
 }
