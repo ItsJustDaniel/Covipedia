@@ -1,0 +1,18 @@
+@import "../nav/nav.scss";
+@import "../home/home.scss";
+@import "../help/help.scss";
+@import "../maps/maps.scss";
+@import "../statistics/statistics.scss";
+@import "../vaccines/vaccines.scss";
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  color: white;
+  background-color: #333333;
+}

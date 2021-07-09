@@ -1,0 +1,14 @@
+@import "./_config";
+
+.help {
+  margin: 1rem auto;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: clamp(600px, 100%, 800px);
+}
+
+.help__block {
+  font-weight: 400;
+}

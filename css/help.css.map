@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACJ,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,yBAAyB;CACjC;;AAED,AAAA,YAAY,CAAC;EACX,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "../scss/help/help.scss",
+        "../scss/help/__config.scss"
+    ],
+    "names": [],
+    "file": "help.css"
+}

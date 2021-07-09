@@ -1,0 +1,138 @@
+.nav {
+  background-color: #e02626;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav__list {
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: clamp(600px, 100%, 800px);
+}
+
+.nav__text {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav__clicked {
+  color: #333333;
+}
+
+.hero__container {
+  margin-top: 0;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("/images/Covid-19 image.png") no-repeat center center;
+  background-size: cover;
+}
+
+.hero__text {
+  margin: 0%;
+}
+
+.hero__desc {
+  max-width: 500px;
+}
+
+.hero__button {
+  padding: 1rem;
+  border-radius: 17px;
+  background-color: #e02626;
+  color: white;
+  border: none;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.more-information {
+  margin: 1rem;
+  padding: 5rem;
+}
+
+.help {
+  margin: 1rem auto;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: clamp(600px, 100%, 800px);
+}
+
+.help__block {
+  font-weight: 400;
+}
+
+.maps {
+  margin: 1rem auto;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: clamp(600px, 100%, 800px);
+}
+
+.maps__image {
+  width: clamp(300px, 40vw, 500px);
+  height: clamp(300px, 40vw, 500px);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  color: white;
+  background-color: #333333;
+}
+/*# sourceMappingURL=main.css.map */

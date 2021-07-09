@@ -1,0 +1,14 @@
+@import "./_config";
+
+.maps {
+  margin: 1rem auto;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  width: clamp(600px, 100%, 800px);
+}
+
+.maps__image {
+  width: clamp(300px, 40vw, 500px);
+  height: clamp(300px, 40vw, 500px);
+}

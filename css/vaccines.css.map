@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/vaccines/vaccines.scss",
+        "../scss/vaccines/__config.scss"
+    ],
+    "names": [],
+    "file": "vaccines.css"
+}

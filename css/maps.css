@@ -1,0 +1,17 @@
+.maps {
+  margin: 1rem auto;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: clamp(600px, 100%, 800px);
+}
+
+.maps__image {
+  width: clamp(300px, 40vw, 500px);
+  height: clamp(300px, 40vw, 500px);
+}
+/*# sourceMappingURL=maps.css.map */

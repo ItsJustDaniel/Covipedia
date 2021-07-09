@@ -1,0 +1,20 @@
+.help {
+  margin: 1rem auto;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: clamp(600px, 100%, 800px);
+}
+
+.help__block {
+  font-weight: 400;
+}
+/*# sourceMappingURL=help.css.map */
